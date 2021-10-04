@@ -22,7 +22,9 @@ import com.example.android.hilt.LogApplication
 import com.example.android.hilt.R
 import com.example.android.hilt.navigator.AppNavigator
 import com.example.android.hilt.navigator.Screens
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 /**
  * Main activity of the application.
  *
